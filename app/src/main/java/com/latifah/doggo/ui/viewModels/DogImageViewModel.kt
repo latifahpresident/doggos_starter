@@ -16,6 +16,12 @@ class DogImageViewModel : ViewModel() {
     private val _status = MutableLiveData<String>()
     val status : LiveData<String> = _status
 
+    init {
+
+        getDogImage()
+
+    }
+
     fun getDogImage() {
         viewModelScope.launch {
             try {
