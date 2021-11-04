@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/imageFragment"
-        android:name="com.latifah.doggo.ImageFragment"
+        android:name="com.latifah.doggo.ui.fragments.ImageFragment"
         android:label="fragment_image"
         tools:layout="@layout/fragment_image" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/favoritesFragment"
-        android:name="com.latifah.doggo.FavoritesFragment"
+        android:name="com.latifah.doggo.ui.fragments.FavoritesFragment"
         android:label="fragment_favorites"
         tools:layout="@layout/fragment_favorites" >
         <action
